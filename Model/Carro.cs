@@ -70,7 +70,16 @@ namespace ProjetoBancoN1.Model
 
         public void SetPlaca(string placa)
         {
-            this.Placa = placa;
+            string modelo = "^[A-z]{3}-[0-9]{4}$";
+            if (System.Text.RegularExpressions.Regex.IsMatch(placa, modelo))
+            {
+                this.Placa = placa;
+            }
+            else
+            {
+                throw new Exception("PLACA INVÁLIDA");
+            }
+            
         }
 
         public void SetMarca(string marca)
@@ -85,7 +94,18 @@ namespace ProjetoBancoN1.Model
         
         public void SetAno(string ano)
         {
-            this.Ano = ano;
+            string modelo = "^(19|20)[0-9]{2}$";
+            if (System.Text.RegularExpressions.Regex.IsMatch(ano, modelo))
+            {
+                this.Ano = ano;
+            }
+            else
+            {
+                throw new Exception("Ano Inválido");
+            }
+
+
+            
         }
 
         public void SetNomeProprietario(string nome)
@@ -103,7 +123,7 @@ namespace ProjetoBancoN1.Model
             {
                 throw new Exception("DATA DE NASCIMENTO INVALIDA!");
             }
-        }  //OK
+        }  
 
         public void SetCpf(string cpf)
         {
@@ -141,7 +161,7 @@ namespace ProjetoBancoN1.Model
                 this.Cpf = cpf;
             else
                 throw new Exception("CPF INVALIDO!");
-        } //OK
+        } 
 
         public void SetContato(string contato)
         {
@@ -154,7 +174,7 @@ namespace ProjetoBancoN1.Model
             {
                 throw new Exception("Contato Inválido");
             }
-        } //OK
+        } 
 
         public void SetEmail(string email)
         {
@@ -167,7 +187,7 @@ namespace ProjetoBancoN1.Model
             {
                 throw new Exception("EMAIL INVÁLIDO");
             }
-        }  //OK
+        }  
 
     }
 }

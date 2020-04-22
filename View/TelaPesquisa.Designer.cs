@@ -117,9 +117,9 @@
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(32, 246);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(145, 18);
+            this.label6.Size = new System.Drawing.Size(151, 18);
             this.label6.TabIndex = 6;
-            this.label6.Text = "Dados Propietário";
+            this.label6.Text = "Dados Proprietário";
             // 
             // label7
             // 
@@ -196,9 +196,9 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(98, 422);
+            this.textBox5.Location = new System.Drawing.Point(110, 422);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(182, 20);
+            this.textBox5.Size = new System.Drawing.Size(204, 20);
             this.textBox5.TabIndex = 16;
             // 
             // textBox6
@@ -219,7 +219,7 @@
             // 
             this.textBox8.Location = new System.Drawing.Point(110, 388);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(156, 20);
+            this.textBox8.Size = new System.Drawing.Size(170, 20);
             this.textBox8.TabIndex = 19;
             // 
             // button1

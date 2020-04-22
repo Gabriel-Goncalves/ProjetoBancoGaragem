@@ -15,6 +15,7 @@ namespace ProjetoBancoN1.DAO
 
         public void Gravar(Carro carro)
         {
+            cmd.Parameters.Clear(); 
             cmd.CommandText = "insert into Carro(placa, marca, modelo, ano, nome, data_nasc, cpf, contato, email) values (@placa, @marca, @modelo, @ano, @nome, @data_nasc, @cpf, @contato, @email)";
             cmd.Parameters.AddWithValue("@placa", carro.GetPlaca());
             cmd.Parameters.AddWithValue("@marca", carro.GetMarca());
@@ -34,7 +35,7 @@ namespace ProjetoBancoN1.DAO
             }
             catch (Exception e)
             {
-                throw new Exception("CarroDAO" + e.Message);
+                throw new Exception("Veículo já Cadastrado!");
             }
         }
 

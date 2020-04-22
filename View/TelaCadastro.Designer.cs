@@ -161,7 +161,7 @@
             // 
             this.textBox_Marca.Location = new System.Drawing.Point(101, 104);
             this.textBox_Marca.Name = "textBox_Marca";
-            this.textBox_Marca.Size = new System.Drawing.Size(136, 20);
+            this.textBox_Marca.Size = new System.Drawing.Size(149, 20);
             this.textBox_Marca.TabIndex = 11;
             this.textBox_Marca.TextChanged += new System.EventHandler(this.textBox_Marca_TextChanged);
             // 
@@ -169,7 +169,7 @@
             // 
             this.textBox_Modelo.Location = new System.Drawing.Point(101, 135);
             this.textBox_Modelo.Name = "textBox_Modelo";
-            this.textBox_Modelo.Size = new System.Drawing.Size(192, 20);
+            this.textBox_Modelo.Size = new System.Drawing.Size(149, 20);
             this.textBox_Modelo.TabIndex = 12;
             this.textBox_Modelo.TextChanged += new System.EventHandler(this.textBox_Modelo_TextChanged);
             // 
@@ -177,7 +177,7 @@
             // 
             this.textBox_Ano.Location = new System.Drawing.Point(101, 165);
             this.textBox_Ano.Name = "textBox_Ano";
-            this.textBox_Ano.Size = new System.Drawing.Size(116, 20);
+            this.textBox_Ano.Size = new System.Drawing.Size(80, 20);
             this.textBox_Ano.TabIndex = 13;
             this.textBox_Ano.TextChanged += new System.EventHandler(this.textBox_Ano_TextChanged);
             // 
@@ -200,7 +200,7 @@
             // 
             // textBox_Email
             // 
-            this.textBox_Email.Location = new System.Drawing.Point(100, 377);
+            this.textBox_Email.Location = new System.Drawing.Point(107, 378);
             this.textBox_Email.Name = "textBox_Email";
             this.textBox_Email.Size = new System.Drawing.Size(397, 20);
             this.textBox_Email.TabIndex = 16;
@@ -220,7 +220,7 @@
             this.maskedTextBox_Contato.Location = new System.Drawing.Point(107, 348);
             this.maskedTextBox_Contato.Mask = "99-999999999";
             this.maskedTextBox_Contato.Name = "maskedTextBox_Contato";
-            this.maskedTextBox_Contato.Size = new System.Drawing.Size(174, 20);
+            this.maskedTextBox_Contato.Size = new System.Drawing.Size(109, 20);
             this.maskedTextBox_Contato.TabIndex = 18;
             this.maskedTextBox_Contato.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox_Contato_MaskInputRejected);
             // 
@@ -249,7 +249,7 @@
             this.pesquisaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(633, 24);
             this.menuStrip1.TabIndex = 21;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -264,7 +264,7 @@
             // veículoToolStripMenuItem
             // 
             this.veículoToolStripMenuItem.Name = "veículoToolStripMenuItem";
-            this.veículoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.veículoToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
             this.veículoToolStripMenuItem.Text = "Veículo";
             this.veículoToolStripMenuItem.Click += new System.EventHandler(this.veículoToolStripMenuItem_Click);
             // 
@@ -272,7 +272,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 502);
+            this.ClientSize = new System.Drawing.Size(633, 502);
             this.Controls.Add(this.button_Cadastrar);
             this.Controls.Add(this.maskedTextBox_Placa);
             this.Controls.Add(this.maskedTextBox_Contato);

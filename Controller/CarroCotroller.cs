@@ -31,7 +31,7 @@ namespace ProjetoBancoN1.Controller
             }
             catch(Exception e)
             {
-                throw new Exception("CarroController aqui " + e.Message + " ");
+                throw new Exception(e.Message);
             }
         }
 
